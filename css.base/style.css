@@ -1,0 +1,34 @@
+@font-face {
+    font-family:RubikMarkerHatch-Regular ;
+    src: url(../Fonts/Rubik_Marker_Hatch/RubikMarkerHatch-Regular.ttf);
+}
+@font-face {
+    font-family:Bangers-Regular ;
+    src: url(../Fonts/Bangers/Bangers-Regular.ttf);
+}
+
+
+#h1{
+    font-family:RubikMarkerHatch-Regular ;
+    text-align: center;
+    background-color: black;
+    color: rgb(8, 67, 116);
+    border: solid 15% aliceblue;
+
+}
+#h2{
+    font-family:RubikMarkerHatch-Regular ;
+    text-align: center;
+    background-color: black;
+    color: rgb(12, 53, 88);
+    border: solid 3% aliceblue;
+
+
+}
+#fondo{
+    background-color: rgb(6, 90, 48);
+}
+#p{
+    font-family:Bangers-Regular ;
+    color: gold;
+}
