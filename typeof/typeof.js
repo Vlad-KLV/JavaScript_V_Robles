@@ -13,3 +13,8 @@ var cadenaTexto = "hola que tal";
 var numeroFalso ="33,4";
 var verdaderoOfalso = false;
 
+
+console.log(typeof numeroEntero);
+console.log(typeof cadenaTexto);
+console.log(typeof numeroFalso);
+console.log(typeof verdaderoOfalso);
