@@ -19,6 +19,8 @@ if(numero1==numero2){
     }else if( numero1 < numero2){
         alert("el numero mayor es" + numero1);
         alert("el numero menor es" + numero2);
+    }else{
+        alert("Introducenumeros correctos");
     }
 
 
