@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Bangers-Regular;
+    src: url(../../Fonts/Bangers/Bangers-Regular.ttf);
+}
+
+@font-face {
+    font-family: Varela_Round;
+    src: url(../../Fonts/Varela_Round/VarelaRound-Regular.ttf);
+}
+
+#fondo {
+    background-color: darkgrey;
+}
+
+#h1 {
+    border: solid 13% white;
+    background-color: black;
+    text-align: left;
+    color: red;
+    font-family: Bangers-Regular;
+    padding: 5%;
+
+}
+/*
+#proramar {
+    color: ;
+}*/
+#img{
+    border: solid 5%  darkgrey ;
+}
