@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CallBack</title>
+    <link rel="icon" type="image" href="../../JavaScript_Victor_Robles/img.JS/JS.icon.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="h1">
+        <h1>
+            CallBack
+        </h1>
+        <p>
+            Una función de callback es una función que se pasa a otra función como un argumento, que luego se invoca <br>
+            dentro de la función externa para completar algún tipo de rutina o acción. <br>
+
+            Ejemplo: <br>
+
+            function saludar(nombre) { <br>
+            alert('Hola ' + nombre); <br>
+            } <br>
+
+            function procesarEntradaUsuario(callback) { <br>
+            var nombre = prompt('Por favor ingresa tu nombre.'); <br>
+            callback(nombre); <br>
+            } <br>
+
+            procesarEntradaUsuario(saludar); <br>
+
+          
+        </p>
+    </div>
+    <script type="text/javascript" src="callback.js"></script>
+
+</body>
+
+</html>
