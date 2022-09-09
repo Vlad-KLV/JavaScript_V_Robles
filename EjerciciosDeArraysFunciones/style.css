@@ -5,6 +5,7 @@
     background-color: black;
     color: gold;
     border: solid 15% aliceblue;
+    padding: 25px;
 
 }
 #programar{
@@ -24,6 +25,7 @@ body{
     color: gold;
 }
 h2 {
+    padding: 25px;
     color: red;
 }
 h3{
