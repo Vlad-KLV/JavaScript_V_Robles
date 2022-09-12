@@ -22,10 +22,10 @@ function mayorDeEdad(edad) {
     alert("Hola , usted tiene" + edad);
     if (edad >= 18) {
         //la función no recibe el valor de var <nombre> y no es capaz de procesar
-        document.write( /*nombre+ */ " tiene" + edad + " años y es mayor de edad");
+        document.write( /*nombre+ */ " Usted tiene " + edad + " años y es mayor de edad");
     } else {
         //la función no recibe el valor de var <nombre> y no es capaz de procesar
-        document.write( /*  nombre +*/  " tiene " + edad + " años y es menor de edad");
+        document.write( /*  nombre +*/ " Usted tiene " + edad + " años y es menor de edad");
     }
 }
 procesarEntradaUsuario(saludar);

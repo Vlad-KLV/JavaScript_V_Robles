@@ -1,4 +1,6 @@
 "use strict"
+
+
 function saludar(nombre) { 
     alert('Hola ' + nombre); 
     } 
