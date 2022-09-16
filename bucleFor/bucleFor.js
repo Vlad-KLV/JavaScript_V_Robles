@@ -35,7 +35,8 @@ for (var i = 0; i <= numero; i++) {
   for (let i = 0; i<= bucleUno ; i++){
     document.write("<h2>bucleUno" + i +"<br></h2>")
   }
-  if(bucleUno-1){
+//!!!!!!!!
+  if(i==bucleUno){
     document.write("<hr>")
   }
 
@@ -44,7 +45,7 @@ for (var i = 0; i <= numero; i++) {
  for( let i = 0 ; i<= bucleDos ; i++){
     document.write("<h2>bucleDos" + i +"<br></h2>")
  }
- if(bucleDos-1){
+ if(i==bucleDos){
     document.write("<hr>")
  }
  //bucleTres
@@ -52,7 +53,7 @@ for (var i = 0; i <= numero; i++) {
  for( let i=0; i<=bucleTres; i++){
     document.write("<h2>bucleTres"+i+"<br></h2>")
  }
- if(3-1){
+ if(i==bucleTres){
     document.write("<hr>")
  }
 
@@ -65,7 +66,7 @@ for (var i = 0; i <= numero; i++) {
  for( let i = 0; i <= bucleDosFila; i++){
     document.write("<h2>" +i+ ",</h2>")
  }
- if(bucleDosFila -1){
+ if(i==bucleDosFila){
     document.write("<hr>")
  }
 // bucleTresFila
@@ -75,7 +76,7 @@ document.write("<h2>bucleTresFila:</h2>")
 for( let i=0; i<=bucleTresFila; i++){
     document.write("<h2>"+i+"</h2>")
 }
- if(3-1){
+ if(i==bucleTresFila){
     document.write("  <hr>")
  }
 
