@@ -1,0 +1,9 @@
+body{
+    background-image: url(../img.JS/450_1000.jpeg) ;
+}
+
+
+img {
+    display: flex;
+    margin: auto;
+}
