@@ -25,4 +25,12 @@ const IVA = 1.21;
 const totalFactura=facturas.map(i=>i.precio*i.cantidad*IVA);
 
 totalFactura.forEach((i,index)=>console.log("elemento", index, i));
-//console.log(totalFactura)
+const total = totalFactura.reduce((a,b)=>a+b);
+console.log(total);
+
+
+/*
+let total = 0;
+totalFactura.forEach((i)=>total+=i);
+console.log(total);
+*/
