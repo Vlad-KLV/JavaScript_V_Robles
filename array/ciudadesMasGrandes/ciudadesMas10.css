@@ -1,0 +1,9 @@
+body{
+    background-image:url(../../img.JS/ciudadesTierra.jpg) ;
+}
+
+img {
+    display: flex;
+    margin: auto;
+
+}
