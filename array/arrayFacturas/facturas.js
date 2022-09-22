@@ -34,3 +34,12 @@ let total = 0;
 totalFactura.forEach((i)=>total+=i);
 console.log(total);
 */
+const numeros = [
+
+    1,2,3,4,5,6,7,8
+    
+    ]
+     numeros.forEach((i,index)=>console.log("El valor es:"+i,"La posesion en el array es:"+index));
+
+const letras =["a","b","c"]
+letras.forEach((i,index)=>console.log("La letra es:"+i,"La posesion en el array es:" +index));

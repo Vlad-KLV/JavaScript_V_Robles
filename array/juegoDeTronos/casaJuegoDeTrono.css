@@ -1,0 +1,7 @@
+body{
+    background-image: url(../../img.JS/juego_de_tronos.jpg);
+}
+img {
+    display: flex;
+    margin: auto;
+}

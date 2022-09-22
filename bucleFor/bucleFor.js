@@ -67,16 +67,16 @@ let bucleDosFila = 2;
 document.write("<h2>bucleDosFila:</h2>");
 
 for (let i = 0; i <= bucleDosFila; i++) {
-    if(i < bucleDosFila){
-        document.write(i +", ")
+    if (i < bucleDosFila) {
+        document.write(i + ", ")
     };
-   
+
 
 
     if (i == bucleDosFila) {
-        document.write(i+". ")
+        document.write(i + ". ")
         document.write("<hr>")
-        
+
     }
 };
 // bucleTresFila
@@ -136,12 +136,27 @@ for (let step = 0; step < 5; step++) {
 let numeroLibre = 13;
 
 
-for(i = 0; i < numeroLibre ; i++){
-     
+for (i = 0; i < numeroLibre; i++) {
+
 }
+/*
+let madrugada = 50;
+document.write("Bucle de insomio:");
+for (let j = 1; j <= 50; j++){
+    if(j < madrugada){
+        document.write(j+" ,")
+    }else(j = madrugada)
+        document.write(j+" .")
+    };
+*/
 
+    let madrugada2 = 50;
+    document.write("<b>Bucle de insommio:</b>");
+    for(let k = 1; k<=madrugada2;k++){
+        if(k<madrugada2){
+            document.write(k+" ,");
+        }else{
+        document.write(k+ ".")
+        }
+    }
   
-
-
-
-
