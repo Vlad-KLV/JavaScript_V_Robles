@@ -66,9 +66,9 @@ equiposNBA.unshift("Temporada NBA 22/23");
 //2
 equiposNBA.splice(19,0,"**************************");
 //3
-const primerElemento3 = equiposNBA.pop();
+const primerElemento3 = equiposNBA.shift();
 console.log(primerElemento3);
-const ultimoElemento3 = equiposNBA.shift()
+const ultimoElemento3 = equiposNBA.pop()
 console.log(ultimoElemento3);
 //4
 equiposNBA[5]="Cambiando el valor";
