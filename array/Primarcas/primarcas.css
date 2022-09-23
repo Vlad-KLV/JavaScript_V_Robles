@@ -1,0 +1,7 @@
+body{
+    background-image: url(../../img.JS/bodyDos40K.png);
+}
+img {
+    display: flex;
+    margin: auto;
+}
