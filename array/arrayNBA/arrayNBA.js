@@ -59,6 +59,7 @@ console.log(equiposNBA[15]);
 
 
 //************************3*********************/
+/*
 console.log(equiposNBA);
 //1
 equiposNBA.push("NBA");
@@ -79,10 +80,11 @@ console.log(equiposNBA.length);
 console.log(equiposNBA[4]);
 console.log(equiposNBA[13]);
 console.log(equiposNBA[15]);
-
-
+****************************/
 
 console.log(equiposNBA);
+console.log(equiposNBA.length);
+equiposNBA.forEach((i,index)=> console.log("Elemento",i,index));
 
 
 
