@@ -15,6 +15,7 @@ var nuevo_array = universoX_Men.map(function callback(i, index, array) {
 
 
     vacio.push(modificado);
+    // vacio is not defined!!!
 
 });
 console.log("x-men  :" + JSON.stringify(xMen, null, '\t'));
