@@ -3,26 +3,23 @@ const universoSpiderMan = ["Spider-Man (21 de junio de 2002)", "Spider-Man 2 (14
 console.log(universoSpiderMan);
 
 let vacio = [];
-
+let vacio2 = [];
 universoSpiderMan.forEach(dividir);
 
 function dividir(i, index) {
     let modificado = i.split(/[()]/);
-//ELIMINO 2 ELEMENTO DEARRAY ("")
-    modificado.pop()
-    modificado[0]= modificado[0].slice(0,-1);
+    //ELIMINO 2 ELEMENTO DEARRAY ("")
+    let ultimoElemento = modificado.pop()
+    modificado[0] = modificado[0].slice(0, -1);
 
     //console.log(modificado);
     vacio.push(modificado);
-
+    vacio2.push(ultimoElemento)
 };
 //console.log(vacio);
 console.log("vacio  :" + JSON.stringify(vacio, null, '\t'));
 
-
-
-
-
+console.log("vacio2  :" + JSON.stringify(vacio2, null, '\t'));
 
 
 
